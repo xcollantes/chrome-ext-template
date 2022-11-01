@@ -12,12 +12,6 @@ if (insertPoint) {
         const altText = `Price graph found at ${camelLink}`;
 
         const html = `<a href='${graphLink}'><img src='${graphLink}' alt='${altText}' /></a>`;
-
-        // const graph = document.createElement("img");
-        // graph.setAttribute("src", g)
-        // graph.setAttribute("alt", g)
-        // graph.setAttribute("width", "50%")
-        // insertPoint.insertAdjacentElement("afterend", graph);
         insertPoint.insertAdjacentHTML("afterend", html);
     });
 }

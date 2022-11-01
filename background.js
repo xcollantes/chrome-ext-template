@@ -8,6 +8,7 @@ async function getTabUrl() {
     return tab;
 }
 
+// Send Tab data to service worker.  
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request === "get_url") {
         getTabUrl().then(tab => {

@@ -1,5 +1,6 @@
-# Amazon Camel
+# Template Chromium based extensions
 
-Show price trends from CamelCamelCamel.  
+Base template for quickly creating working extensions.  Includes some examples
+of common tasks.  
 
-This is an experimental API personal project.  
+**TODO: Global search and action for "TODO".**
